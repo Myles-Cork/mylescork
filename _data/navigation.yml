@@ -1,6 +1,8 @@
 main:
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Archive"
+    url: /archive/
   - title: "Posts"
     url: /posts/
   - title: "Categories"
