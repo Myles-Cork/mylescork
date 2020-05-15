@@ -174,7 +174,7 @@ body {
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top;
     background-attachment: fixed;
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
