@@ -172,10 +172,10 @@ body {
     margin-bottom: 2em;
     padding: 10em 0;
     @include clearfix;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center top;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
