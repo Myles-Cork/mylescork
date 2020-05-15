@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/splash_2.png
+  overlay_image: /assets/images/splash_6.png
 title: "Hello"
 excerpt: >
   It's me.<br />
