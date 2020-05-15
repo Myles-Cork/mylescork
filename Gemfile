@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+#commented out b/c of testing errors, ignored by git b/c necessary for website on GitHub Pages
+# gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
