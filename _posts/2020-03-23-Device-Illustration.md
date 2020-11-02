@@ -4,6 +4,8 @@ excerpt: "Animatable, photo-accurate, 2D illustration of a device"
 category:
   - Graphic Design
   - 2D Animation
+  - Blender
+  - Adobe Illustrator
 layout: single
 classes: wide
 header:

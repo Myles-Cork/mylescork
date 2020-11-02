@@ -3,6 +3,8 @@ title: "Drift BUS Wireframe Animation"
 excerpt: "3D wireframe-style animation"
 category:
   - 3D Animation
+  - Blender
+  - Adobe Photoshop
 layout: single
 classes: wide
 header:

@@ -3,6 +3,7 @@ title: "\"War of the Worlds\" and \"Halloweekend\" Posters"
 excerpt: "Retro radio-play poster set"
 category:
   - Graphic Design
+  - Adobe Photoshop
 layout: single
 classes: wide
 header:
