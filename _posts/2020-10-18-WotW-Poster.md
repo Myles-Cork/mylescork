@@ -4,6 +4,7 @@ excerpt: "Retro radio-play poster set"
 category:
   - Graphic Design
   - Adobe Photoshop
+  - Theater
 layout: single
 classes: wide
 header:

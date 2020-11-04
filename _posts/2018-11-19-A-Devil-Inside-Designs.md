@@ -4,6 +4,7 @@ excerpt: "Designs for the Wandering Minds theater production"
 category:
   - Graphic Design
   - Adobe Photoshop
+  - Theater
 layout: single
 classes: wide
 header:
