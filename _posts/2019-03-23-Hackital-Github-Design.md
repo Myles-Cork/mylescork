@@ -14,4 +14,4 @@ header:
 	<a href="/assets/images/portfolio/JPEG/2019_03_23_Octucle-Sam.jpg"><img src="/assets/images/portfolio/JPEG/2019_03_23_Octucle-Sam.jpg"></a>
 </figure>
 
-Our Hackital entry: https://github.com/d-philip/green-carpet
+[Our Hackital entry](https://github.com/d-philip/green-carpet)
