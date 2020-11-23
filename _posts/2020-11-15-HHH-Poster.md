@@ -1,6 +1,6 @@
 ---
 title: "\"The Haunting of Hill House\" Poster"
-excerpt: "Poster design made with a combination of 2D illustration and 3D rendering"
+excerpt: "Poster and Spotify Cover design made with a combination of 2D illustration and 3D rendering"
 category:
   - Graphic Design
   - Adobe Photoshop
@@ -30,4 +30,9 @@ header:
 <figure class="align-center">
 	<a href="/assets/images/portfolio/JPEG/2020_11_07-PosterDisplay.jpg"><img src="/assets/images/portfolio/JPEG/2020_11_07-PosterDisplay.jpg"></a>
   <figcaption>Poster displayed outside of BU's Warren Towers</figcaption>
+</figure>
+
+<figure class="align-center">
+	<a href="/assets/images/portfolio/JPEG/2020_11_07-HHHSpotify.jpg"><img src="/assets/images/portfolio/JPEG/2020_11_07-HHHSpotify.jpg"></a>
+  <figcaption>Spotify podcast cover</figcaption>
 </figure>
