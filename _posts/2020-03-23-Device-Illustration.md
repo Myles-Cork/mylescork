@@ -1,6 +1,6 @@
 ---
 title: "Device Illustration"
-excerpt: "Animatable, photo-accurate, 2D illustration of a device"
+excerpt: "Animatable, perspective-accurate, 2D illustration of a device"
 category:
   - Graphic Design
   - 2D Animation
