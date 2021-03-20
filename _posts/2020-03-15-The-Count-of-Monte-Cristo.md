@@ -8,20 +8,20 @@ category:
 layout: single
 classes: wide
 header:
-  teaser: /assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-01_MonteCristo.jpg
+  teaser: /assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-01_MonteCristo.jpg
 gallery0:
-  - url: /assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-01_MonteCristo.jpg
-    image_path: assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-01_MonteCristo.jpg
+  - url: /assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-01_MonteCristo.jpg
+    image_path: assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-01_MonteCristo.jpg
     alt: "01_MonteCristo"
-  - url: /assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-02_Morcerf.jpg
-    image_path: assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-02_Morcerf.jpg
+  - url: /assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-02_Morcerf.jpg
+    image_path: assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-02_Morcerf.jpg
     alt: "02_Morcerf"
 gallery1:
-  - url: /assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-03_Villefort.jpg
-    image_path: assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-03_Villefort.jpg
+  - url: /assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-03_Villefort.jpg
+    image_path: assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-03_Villefort.jpg
     alt: "03_Villefort"
-  - url: /assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-04_Danglars.jpg
-    image_path: assets/images/portfolio/JPEG/2020_03_15_MonteCristoHeraldry_2-04_Danglars.jpg
+  - url: /assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-04_Danglars.jpg
+    image_path: assets/images/portfolio/JPEG/2020_02_15_MonteCristoHeraldry_2-04_Danglars.jpg
     alt: "04_Danglars"
 ---
 
@@ -31,11 +31,11 @@ A Boston University Wandering Minds play I directed. It was canceled a couple we
 {% include gallery id="gallery1" caption="Coat of arms for the main characters designed based on the descriptions in the original book" %}
 
 <figure class="align-center">
-	<a href="/assets/images/portfolio/JPEG/2020_03_15_script.jpg"><img src="/assets/images/portfolio/JPEG/2020_03_15_script.jpg"></a>
+	<a href="/assets/images/portfolio/JPEG/2020_03_15_script.jpg"><img src="/assets/images/portfolio/JPEG/2020_02_15_script.jpg"></a>
   <figcaption>Script</figcaption>
 </figure>
 
 <figure class="align-center">
-	<a href="/assets/images/portfolio/JPEG/2020_03_15_letters.jpg"><img src="/assets/images/portfolio/JPEG/2020_03_15_letters.jpg"></a>
+	<a href="/assets/images/portfolio/JPEG/2020_03_15_letters.jpg"><img src="/assets/images/portfolio/JPEG/2020_02_15_letters.jpg"></a>
   <figcaption>Wax sealed letters for props</figcaption>
 </figure>
