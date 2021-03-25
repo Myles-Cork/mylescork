@@ -46,7 +46,7 @@ The main issues I ran into while doing this were related to the quality of the o
 {% include gallery id="gallery1" caption="Isolated frames from the video showing the bus in shadow, behind a pillar, and in light" %}
 
 
-I also made an [animated graphic](/posts/2020-06-22-Drift-BUS-Wireframe-Animation/) using Blender's freestyle export option and a [shirt design](/posts/2020-06-22-Drift-BUS-Shirt/) related to this video.
+I also made an [animated graphic](/3d%20animation/blender/adobe%20photoshop/Drift-BUS-Wireframe-Animation/) using Blender's freestyle export option and a [shirt design](/graphic%20design/blender/adobe%20illustrator/Drift-BUS-Shirt/) related to this video.
 
 
 ### Final video on my YouTube channel:

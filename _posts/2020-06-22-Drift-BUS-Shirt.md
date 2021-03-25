@@ -42,4 +42,4 @@ Reference SVG made with Blender, and final design made with Adobe Illustrator.
 
 {% include gallery id="gallery1" caption="Alternative designs" %}
 
-Designs made for the [Drift BUS IRL video](/posts/2020-06-22-Drift-BUS-IRL/). Alternative designs made with frames from the [wireframe animation](/posts/2020-06-22-Drift-BUS-Wireframe-Animation/).
+Designs made for the [Drift BUS IRL video](/3d%20animation/video%20compositing/blender/adobe%20premiere/Drift-BUS-IRL/). Alternative designs made with frames from the [wireframe animation](/3d%20animation/blender/adobe%20photoshop/Drift-BUS-Wireframe-Animation/).
