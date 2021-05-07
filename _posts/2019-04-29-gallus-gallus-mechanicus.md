@@ -3,6 +3,7 @@ title: "Gallus Gallus Mechanicus"
 excerpt: "Digital Painting"
 category:
   - Digital Painting
+  - Painting
 layout: single
 classes: wide
 header:

@@ -2,7 +2,9 @@
 title: "Keep Calm and Vicegrip"
 excerpt: "Theater group related design"
 category:
+  - Graphic Design
   - Digital Painting
+  - Painting
 layout: single
 classes: wide
 header:

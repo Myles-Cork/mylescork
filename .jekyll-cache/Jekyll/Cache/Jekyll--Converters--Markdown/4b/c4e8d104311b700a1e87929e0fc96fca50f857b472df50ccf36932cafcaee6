@@ -1,9 +1,0 @@
-I"<figure class="align-center">
-	<a href="/assets/images/portfolio/GIF/2020_6_22_DriftBUS-wireframe-anim.gif"><img src="/assets/images/portfolio/GIF/2020_6_22_DriftBUS-wireframe-anim.gif" /></a>
-  <figcaption>Drift BUS wireframe gif animation</figcaption>
-</figure>
-
-<p>Animation frames made with Blender, GIF animation made with Adobe Photoshop.</p>
-
-<p>I made this animation as part of the <a href="/posts/2020-06-22-Drift-BUS-IRL/">Drift BUS IRL video</a>, and one of the frames was used for the <a href="/posts/2020-06-22-Drift-BUS-Shirt/">alternative Drift BUS shirt design</a>. It was made using blender’s procedural animation features, which allow animation using cyclic functions such as sine waves, and the freesytle export option, which gives it the wireframe look.</p>
-:ET

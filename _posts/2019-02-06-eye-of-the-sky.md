@@ -3,6 +3,7 @@ title: "Eye of the Sky"
 excerpt: "Digital Painting"
 category:
   - Digital Painting
+  - Painting
 layout: single
 classes: wide
 header:
