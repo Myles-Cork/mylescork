@@ -48,7 +48,7 @@ gallery1:
 	<a href="/assets/images/portfolio/PNG/2021_06_25_DBGFeatureGraphic.png"><img src="/assets/images/portfolio/PNG/2021_06_25_DBGFeatureGraphic.png"></a>
 </figure>
 
-A mobile game I made with the Unity game engine. I created all of the assets including the models, textures, C# scripts, and music. Released on the Apple App Store and Google Play. The following is about version 1 and the initial release.
+A mobile game I made with the Unity game engine. I created all of the assets including the models, textures, C# scripts, and music. Released on the Apple App Store and Google Play. The following is about version 1.
 
 The goal of the game is to get a high score while drifting to conserve fuel and increase speed. The player loses by falling off the side of the road or running out of fuel.
 
