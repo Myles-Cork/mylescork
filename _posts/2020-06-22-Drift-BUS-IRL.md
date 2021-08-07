@@ -3,7 +3,7 @@ title: "Drift BUS IRL"
 excerpt: "Computer animation of a bus composited with real video"
 category:
   - 3D Animation
-  - Video Compositing
+  - Video Production
   - Blender
   - Adobe Premiere
 layout: single

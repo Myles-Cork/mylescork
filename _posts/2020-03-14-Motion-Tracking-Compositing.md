@@ -3,7 +3,7 @@ title: "Motion Tracking and Compositing"
 excerpt: "Solving a camera's motion for use with 3D software."
 category:
   - 3D Animation
-  - Video Compositing
+  - Video Production
   - Blender
   - Adobe Premiere
 layout: single

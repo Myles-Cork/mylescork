@@ -5,7 +5,7 @@ category:
   - Mobile App Development
   - Unity
   - 3D Animation
-  - Video Compositing
+  - Video Production
   - Graphic Design
   - Music Production
   - Blender

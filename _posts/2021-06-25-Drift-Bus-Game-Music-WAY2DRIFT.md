@@ -4,7 +4,7 @@ excerpt: "Original soundtrack and visualizer video"
 category:
   - Music Production
   - 3D Animation
-  - Video Compositing
+  - Video Production
   - Graphic Design
   - GarageBand
   - Blender
