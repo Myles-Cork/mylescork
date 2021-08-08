@@ -54,7 +54,7 @@ The goal of the game is to get a high score while drifting to conserve fuel and 
 
 ## Trailer:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d0pVvZUVVq0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-Made with video captured in the Unity engine and editied in Davinci Resolve. Features a cut down version of the track [WAY2DRIFT](/music%20production/3d%20animation/video%20compositing/graphic%20design/garageband/blender/davinci%20resolve/inkscape/Drift-Bus-Game-Music-WAY2DRIFT/).
+Made with video captured in the Unity engine and editied in Davinci Resolve. Features a cut down version of the track [WAY2DRIFT](/music%20production/3d%20animation/video%20production/graphic%20design/garageband/blender/davinci%20resolve/inkscape/Drift-Bus-Game-Music-WAY2DRIFT/).
 
 
 # Features:
@@ -118,7 +118,7 @@ The game conveys a sense of speed to the player through visual effects, such as 
 
 ### Full version of WAY2DRIFT:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3ugWOGQr02Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-[More about how I made the music and visualizer](/music%20production/3d%20animation/video%20compositing/graphic%20design/garageband/blender/davinci%20resolve/inkscape/Drift-Bus-Game-Music-WAY2DRIFT/)
+[More about how I made the music and visualizer](/music%20production/3d%20animation/video%20production/graphic%20design/garageband/blender/davinci%20resolve/inkscape/Drift-Bus-Game-Music-WAY2DRIFT/)
 
 ## 3D Menu with Moving Camera
 The main menu uses unity's cinemachine package for interpolating camera positions. The game saves statistics such as the player's high score and total number of drifts, which can be viewed on the statistics page. The save data is stored on the player's device, along with their preferred settings.

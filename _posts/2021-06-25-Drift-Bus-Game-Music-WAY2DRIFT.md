@@ -44,4 +44,4 @@ Visualizer made in Blender. Uses the bus and speedometer assets from the Drift B
 
 Final video compiled from frames and color graded in DaVinci Relsolve.
 
-[Check out the game](/mobile%20app%20development/unity/3d%20animation/video%20compositing/graphic%20design/music%20production/blender/davinci%20resolve/krita/inkscape/Drift-Bus-Game/)
+[Check out the game](/mobile%20app%20development/unity/3d%20animation/video%20production/graphic%20design/music%20production/blender/davinci%20resolve/krita/inkscape/Drift-Bus-Game/)
