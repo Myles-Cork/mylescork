@@ -21,7 +21,7 @@ When contacting the support email, mylescorkapps@gmail.com, personal information
 
 The app does use third party services that may collect information used to identify you.
 
-Links to privacy policy of third party service providers used by the app
+Links to privacy policy of third party service providers used by the app:
 
 -   [Google Play](https://www.google.com/policies/privacy/)
 -   [Unity](https://unity3d.com/legal/privacy-policy)
