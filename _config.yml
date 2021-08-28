@@ -86,6 +86,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  atls5630:
+    output: true
+    permalink: /:collection/:path/
 
 
 defaults:
@@ -93,6 +96,17 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: true
+      related: true
+  # _atls5630
+  - scope:
+      path: ""
+      type: atls5630
     values:
       layout: single
       author_profile: true
