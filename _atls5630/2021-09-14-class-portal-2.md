@@ -36,3 +36,9 @@ I created the final art for the background and made a version for mobile devices
 <figure class="align-center">
 	<a href="/assets/images/atls5630/ATLSportal3.gif"><img src="/assets/images/atls5630/ATLSportal3.gif"></a>
 </figure>
+
+After checking my design plan, I realized I forgot to move the navigation items to the bottom of the page for mobile devices, so I did. Also, in the end I chose not to make the ruler element a ruler, since I preferred it as just a waterfall.
+
+<figure class="align-center">
+	<a href="/assets/images/atls5630/ATLSportal4.gif"><img src="/assets/images/atls5630/ATLSportal4.gif"></a>
+</figure>
