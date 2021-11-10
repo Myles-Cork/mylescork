@@ -1,0 +1,18 @@
+import React from 'react';
+
+class ItemInput extends React.Component{
+  //Will call function in DynamicTodoList to add items
+
+  render(){
+    return(
+      <div>
+        <form>
+          <input type="text" placeholder="Item Name..." />
+          <button type="submit">Add</button>
+        </form>
+      </div>
+    );
+  }
+}
+
+export default ItemInput

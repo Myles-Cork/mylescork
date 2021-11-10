@@ -1,0 +1,16 @@
+import React from 'react';
+
+class TodoItem extends React.Component{
+  //Displays todo list item name passed as a prop
+  //Will have a onClick to call a function in DynamicTodoList to remove item from list
+
+  render(){
+    return(
+      <li>
+        {this.props.name}
+      </li>
+    );
+  }
+}
+
+export default TodoItem

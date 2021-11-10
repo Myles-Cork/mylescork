@@ -1,0 +1,37 @@
+import React from 'react';
+import ItemInput from './ItemInput.js';
+import TodoList from './TodoList.js';
+
+class DynamicTodoList extends React.Component{
+  //Will hold list of items
+
+  render(){
+    const todostyle = {
+      padding: 20,
+      marginLeft: "auto",
+      marginRight: "auto",
+      color: "#000000",
+      align: "center",
+      width: "maxContent",
+      fontFamily: "cursive"
+    };
+
+    const items = [
+      {name: 'Grocery Shopping'},
+      {name: 'Reply to emails'},
+      {name: 'Homework'},
+      {name: 'Laundry'},
+      {name: 'Fix bike'}
+    ]
+
+    return(
+      <div style={todostyle}>
+        To Do:
+        <ItemInput/>
+        <TodoList items={items}/>
+      </div>
+    );
+  }
+}
+
+export default DynamicTodoList
