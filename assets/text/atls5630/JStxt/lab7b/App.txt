@@ -1,0 +1,10 @@
+import './App.css';
+import DynamicTodoList from './components/DynamicTodoList.js'
+
+function App() {
+  return (
+    <DynamicTodoList/>
+  );
+}
+
+export default App;

@@ -1,0 +1,101 @@
+import React from 'react';
+import ItemInput from './ItemInput.js';
+import TodoList from './TodoList.js';
+
+class DynamicTodoList extends React.Component{
+  //Will hold list of items
+
+  render(){
+    const todostyle = {
+      padding: 20,
+      marginLeft: "auto",
+      marginRight: "auto",
+      color: "#000000",
+      align: "center",
+      width: "maxContent",
+      fontFamily: "cursive"
+    };
+
+    let warn1style = {
+      display: "none"
+    };
+
+    let warn2style = {
+      display: "none"
+    };
+
+    switch (this.state.warn) {
+      case 0:
+        break;
+      case 1:
+        warn1style = {
+          display: "block"
+        };
+        break;
+      case 2:
+        warn2style = {
+          display: "block"
+        };
+        break;
+      default:
+    }
+
+    return(
+      <div style={todostyle}>
+        To Do:
+        <ItemInput addfunc={this.addItem}/>
+        <div style={warn1style}>Item must have a name!</div>
+        <div style={warn2style}>That item is already in the list!</div>
+        <TodoList items={this.state.items} removefunc={this.removeItem}/>
+      </div>
+    );
+  }
+
+  constructor(props){
+    super(props);
+    this.state={
+      items: []
+    };
+
+    this.addItem = this.addItem.bind(this);
+    this.removeItem = this.removeItem.bind(this);
+    this.showWarn = this.showWarn.bind(this);
+  }
+
+  addItem(newitemname){
+    this.showWarn(0);
+    if(newitemname !== ""){
+      let oldlist = this.state.items;
+      let oldnum = oldlist.length;
+      let newlist = oldlist.filter((item) => item.name !== newitemname).concat([{name: newitemname}]);
+
+      if(newlist.length === oldnum){
+        this.showWarn(2);
+      }
+
+      this.setState(
+        {items: newlist}
+      );
+    }else{
+      this.showWarn(1);
+    }
+  }
+
+  removeItem(removeitemname){
+    this.setState(
+      {
+        items: this.state.items.filter((item) => item.name !== removeitemname),
+        warn: 0
+      }
+    );
+  }
+
+  showWarn(num){
+    //0=none, 1=warn1, 2=warn2
+    this.setState({
+      warn: num
+    })
+  }
+}
+
+export default DynamicTodoList

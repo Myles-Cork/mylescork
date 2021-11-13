@@ -1,0 +1,19 @@
+import React from 'react';
+import TodoItem from './TodoItem.js';
+
+class TodoList extends React.Component{
+  //Gets a list of todo items passed as a prop
+
+  render(){
+    return(
+      <div>
+        <div>Number of Items {this.props.items.length}</div>
+        <ul>
+          {this.props.items.map(todoItem => <TodoItem key={todoItem.name} name={todoItem.name} removefunc={this.props.removefunc}></TodoItem>)}
+        </ul>
+      </div>
+    );
+  }
+}
+
+export default TodoList

@@ -1,0 +1,40 @@
+import React from 'react';
+
+class TodoItem extends React.Component{
+  //Displays todo list item name passed as a prop
+  //Will have a onClick to call a function in DynamicTodoList to remove item from list
+  render(){
+    let itemstyle = {
+      color: "#000000"
+    }
+
+    if(this.state.hover){
+      itemstyle = {
+        color: "#999999",
+        textDecoration: "line-through"
+      }
+    }
+
+    return(
+      <li style={itemstyle} onClick={this.handleClick.bind(this)} onMouseEnter={this.toggleHover.bind(this)} onMouseLeave={this.toggleHover.bind(this)}>
+        {this.props.name}
+      </li>
+    );
+  }
+
+  constructor(props){
+    super(props);
+    this.state={
+      hover: false
+    };
+  }
+
+  toggleHover() {
+	   this.setState({hover: !this.state.hover})
+  }
+
+  handleClick(e){
+    this.props.removefunc(this.props.name);
+  }
+}
+export default TodoItem
