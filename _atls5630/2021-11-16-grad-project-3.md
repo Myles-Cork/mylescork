@@ -1,6 +1,6 @@
 ---
 title: "Graduate Project Milestone 3"
-excerpt: "Graduate Project Prototype"
+excerpt: "Graduate Project"
 layout: single
 author_profile: false
 related: false
