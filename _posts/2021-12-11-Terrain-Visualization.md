@@ -8,7 +8,7 @@ category:
 layout: single
 classes: wide
 header:
-  teaser: /assets/images/portfolio/GIF/terrvisplacement.gif
+  teaser: /assets/images/portfolio/GIF/2021_12_11_terrvisplacement.gif
 ---
 
 A scene of a tents in a valley at dusk and night. Written in C using OpenGL and SDL 2.
@@ -26,7 +26,7 @@ Textures a terrain generated from a height map with grass and rock based on incl
 The camera looks at a point. Both that camera and look-at point can be translated in 3 axis, and the camera can be rotated about the look-at point.
 
 <figure class="align-center">
-	<a href="/assets/images/portfolio/GIF/terrviscam.gif"><img src="/assets/images/portfolio/GIF/terrviscam.gif"></a>
+	<a href="/assets/images/portfolio/GIF/2021_12_11_terrviscam.gif"><img src="/assets/images/portfolio/GIF/2021_12_11_terrviscam.gif"></a>
   <figcaption></figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Uses a custom per-pixel shader for the terrain, which samples from two textures 
 The triangle tent, domed tent, tree, and lamp are rendered using OpenGL's fixed pipeline, while the grass uses a custom shader that discards the dark areas of a grass tuft on a black background texture, leaving just the blades of grass.
 
 <figure class="align-center">
-	<a href="/assets/images/portfolio/GIF/terrvisplacement.gif"><img src="/assets/images/portfolio/GIF/terrvisplacement.gif"></a>
+	<a href="/assets/images/portfolio/GIF/2021_12_11_terrvisplacement.gif"><img src="/assets/images/portfolio/GIF/2021_12_11_terrvisplacement.gif"></a>
   <figcaption></figcaption>
 </figure>
 
@@ -62,7 +62,7 @@ In order to find the location of the mouse pointer on the terrain, the terrain i
 
 
 <figure class="align-center">
-	<a href="/assets/images/portfolio/GIF/terrvisplacementcolor.gif"><img src="/assets/images/portfolio/GIF/terrvisplacementcolor.gif"></a>
+	<a href="/assets/images/portfolio/GIF/2021_12_11_terrvisplacementcolor.gif"><img src="/assets/images/portfolio/GIF/2021_12_11_terrvisplacementcolor.gif"></a>
   <figcaption></figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ The custom shaders for the terrain and grass support 4 lights with attenuation. 
 
 ## Fog Distance and Color
 <figure class="align-center">
-	<a href="/assets/images/portfolio/GIF/terrvisfog.gif"><img src="/assets/images/portfolio/GIF/terrvisfog.gif"></a>
+	<a href="/assets/images/portfolio/GIF/2021_12_11_terrvisfog.gif"><img src="/assets/images/portfolio/GIF/2021_12_11_terrvisfog.gif"></a>
   <figcaption></figcaption>
 </figure>
 
