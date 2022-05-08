@@ -13,7 +13,7 @@ header:
 
 Experiments with point and sprite particles in OpenGL.
 
-Effect based on the portal effect from the movie "Doctor Strange" (2016) and related Marvel movies
+Effect based on the portal effect from the movie "Doctor Strange" (2016) and related Marvel movies.
 
 <figure class="align-center">
 	<a href="/assets/images/portfolio/GIF/2022_03_08_ParticlePortal_1.gif"><img src="/assets/images/portfolio/GIF/2022_03_08_ParticlePortal_1.gif"></a>
