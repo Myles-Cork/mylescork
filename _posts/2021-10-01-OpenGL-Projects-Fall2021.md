@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/portfolio/GIF/2021_10_01_OGLthumb.gif
 ---
 
-The following were programmed in C using OpenGL 3. In Progress.
+The following were programmed in C using OpenGL 3.
 
 <figure class="align-center">
 	<a href="/assets/images/portfolio/GIF/2021_10_01_OGLproj2.gif"><img src="/assets/images/portfolio/GIF/2021_10_01_OGLproj2.gif"></a>
