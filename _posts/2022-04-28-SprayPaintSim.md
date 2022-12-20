@@ -1,6 +1,6 @@
 ---
 title: "Spray Paint Simulator"
-excerpt: "Simulation of spray painting set in an alleyway"
+excerpt: "Spray painting simulation set in an alleyway"
 category:
   - OpenGL
   - Computer Graphics
@@ -10,10 +10,10 @@ category:
 layout: single
 classes: wide
 header:
-  teaser: /assets/images/portfolio/GIF/2022_03_08_ParticlePortal_0.gif
+  teaser: /assets/images/portfolio/PNG/2022_04_28_SprayPaintSim.png
 ---
 
-A spray painting simulation, set in an alleyway. Written in C using OpenGL and SDL2.
+A spray painting simulation set in an alleyway. Written in C using OpenGL and SDL2.
 
 ## Initial Attempt - Particles
 
