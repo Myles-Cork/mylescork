@@ -11,7 +11,7 @@ header:
   teaser: /assets/images/atls5630/impossibleobjectshome.JPG
 ---
 
-[Link to site](https://creative.colorado.edu/~myco6347/fwd/Projects/Project1/)
+[Link to site](/_pages/impossibleobjects)
 
 <figure class="align-center">
 	<a href="/assets/images/atls5630/impossibleobjectshome.JPG"><img src="/assets/images/atls5630/impossibleobjectshome.JPG"></a>
@@ -28,6 +28,6 @@ Links to process/journal entries:
 
 [Milestone 2.1](/atls5630/2021-10-10-project-1-2-1/)
 
-[Milestone 3 (completed site)](https://creative.colorado.edu/~myco6347/fwd/Projects/Project1/)
+[Milestone 3 (completed site)](/_pages/impossibleobjects)
 
 [Milestone 4](/atls5630/2021-10-26-project-1-4/)

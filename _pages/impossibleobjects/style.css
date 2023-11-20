@@ -1,0 +1,149 @@
+body{
+  color: #aaaaaa;
+  background-color: #222222;
+}
+
+a{
+  color: #cccccc;
+}
+
+a:visited {
+  color: #999999;
+}
+
+#homeMenu{
+  display: grid;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+}
+
+.homeMenuElement{
+  position: relative;
+  box-sizing: border-box;
+  border: 1px solid #aaaaaa;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeMenuElement img{
+  width: 100%;
+  transition: all 1s ease;
+}
+
+.homeMenuElement:hover img{
+  filter:blur(12px);
+  transition: all 1s ease;
+}
+
+.homeMenuElement .menutint{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 34, 34, 0);
+}
+
+.homeMenuElement:hover .menutint{
+  background-color: rgba(34, 34, 34, 0.9);
+  transition: all 1s ease;
+}
+
+.homeMenuElement .menulink{
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  left: 50%;
+  font-size: 125%;
+  transform: translate(-50%, 0%);
+  transition: all 1s ease;
+}
+
+.homeMenuElement:hover .menulink{
+  top: 50%;
+  color: #cccccc;
+  font-size: 125%;
+  transform: translate(-50%, -50%);
+  font-size: 200%;
+  transition: all 1s ease;
+}
+
+.viewer{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pageHeading{
+  text-align: center;
+  font-size: 250%;
+}
+
+.name{
+  text-align: center;
+  font-size: 90%;
+}
+
+.reset, .screenshot{
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+.sectionHeading{
+  font-size: 175%;
+  text-decoration: underline;
+}
+
+.modelHeading{
+  text-align: center;
+  font-size: 175%;
+}
+
+p{
+  font-size: 120%;
+  text-indent: 2em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.example img{
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #999999;
+}
+
+figcaption{
+  text-align: center;
+}
+
+.example{
+  width: 100%;
+}
+
+@media only screen and (max-device-width: 700px) {
+  #homeMenu{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+
+  section{
+    width: 75%;
+  }
+}
