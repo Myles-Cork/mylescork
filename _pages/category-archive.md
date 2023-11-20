@@ -4,4 +4,5 @@ layout: categories
 permalink: /categories/
 classes: wide
 author_profile: true
+entries_layout: grid
 ---
