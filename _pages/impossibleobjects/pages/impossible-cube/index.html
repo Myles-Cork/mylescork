@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="../../style.css">
+
+  <script type="importmap">
+    {
+        "imports": {
+            "three":"https://threejs.org/build/three.module.js",
+            "three/examples/jsm/controls/OrbitControls":"https://threejs.org/examples/jsm/controls/OrbitControls.js",
+            "three/examples/jsm/loaders/GLTFLoader":"https://threejs.org/examples/jsm/loaders/GLTFLoader.js"
+        }
+    }
+  </script>
+
+  <script defer type="module" src="impossible_cube_script.js"></script>
+
+  <title>Myles Cork - Impossible Objects - Impossible Cube</title>
+</head>
+
+<body>
+
+<a class="backToHome" href="../../">Back</a>
+
+<div class="pageHeading">Impossible Cube</div>
+<hr>
+
+<div class="viewer" id="viewer"></div>
+<div class="reset" id="resetview">Reset View</div>
+<div class="screenshot" id="screenshotview">Screenshot</div>
+
+<hr>
+
+<section>
+  <div class="sectionHeading">Description</div>
+  <p>The creation of Impossible Cube is often attributed to the Dutch artist M.C. Escher.
+    The illusion is based on the Necker Cube, which was first described in 1832 by the
+    Swiss crystallographer Louis Albert Necker. Necker noticed that cubes as well as other
+    rhomboids when drawn as wireframes with no cues to depth or orientation could appear to be
+    in two possible orientations. The impossible cube makes use of this effect, often called
+    metastable perception, by including parts of both possible orientations to create a contradictory cube.
+  </p>
+  <p>Above is one possible way of making an impossible cube, where the edges of the cube that would be closest to the
+    viewer are cut from the viewer’s perspective to reveal the back edges, giving the illusion that they
+    are in front of the closer edges. Even though they are cut, the closer edges still appear to be continuous
+    as they are aligned. Earlier in the 1920’s a group of German psychologists, most notably Max Wertheimer and
+    Wolfgang Köhler, proposed a set of principles that tried to explain related perceptual phenomena. These principles,
+    known as the Gestalt Principles, are commonly known as similarity, continuation, closure, proximity, figure/ground,
+    and symmetry/order (also known as prägnanz). The perceived continuity in the above impossible cube follows the
+    Continuity principle, where objects that seemingly follow the same line are more likely to appear connected to one another.
+  </p>
+
+  <div class="example">
+    <a title="BenFrantzDale, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Necker_cube.svg">
+      <img alt="Necker cube" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Necker_cube.svg/256px-Necker_cube.svg.png">
+        <figcaption>A Necker Cube</figcaption>
+      </img>
+    </a>
+  </div>
+</section>
+
+<hr>
+
+<div class="viewer" id="viewer1"></div>
+<div class="reset" id="resetview1">Reset View</div>
+<div class="screenshot" id="screenshotview1">Screenshot</div>
+
+<hr>
+
+<section>
+  <div class="sectionHeading">M.C. Escher's Belvedere</div>
+  <p>This version of the impossible cube is seen in M.C. Escher’s Belvedere. The main difference between
+    the previous impossible cube is the bottom face of the cube, which appears to be pointing towards the
+    viewer similarly to the top face. The tilt of the camera makes it harder to create the illusion, as
+    the vertical bars of the cube no longer end in the same shape. Both ends are parallelograms that mirror
+    each other horizontally, so the inner line of each bar must be tilted slightly (in this case
+    counter-clockwise from the viewers perspective) for each bar to connect the top of the cube to the bottom.
+    This issue can create inconsistent shading as in the above example, but can be mitigated by smoothing
+    the edges of the impossible cube. The next model is a smoothed version of the Escher-style impossible cube.
+  </p>
+
+  <div class="example">
+    <a title="Impossible Cube and Necker Cube from Escher's Belvedere" href="https://www.illusionsindex.org/i/impossible-cube">
+      <img alt="Necker cube" src="https://www.illusionsindex.org/images/illusions/impossible-cube/Escherimpossible.png">
+        <figcaption>The Impossible Cube and Necker Cube Depicted in M. C. Escher's Belvedere</figcaption>
+      </img>
+    </a>
+  </div>
+</section>
+
+<hr>
+
+<div class="viewer" id="viewer2"></div>
+<div class="reset" id="resetview2">Reset View</div>
+<div class="screenshot" id="screenshotview2">Screenshot</div>
+
+<hr>
+
+
+<section>
+  <div class="sectionHeading">Isometric Impossible Cubes</div>
+  <p>The following are two examples of impossible cubes made for an isometric perspective. They both
+    use the edge cutting method like the first impossible cube model, however the second includes an
+    extra piece on the cut vertical bar similar to the <a href="../penrose-triangle">Penrose Triangle</a> model.
+  </p>
+</section>
+
+<hr>
+
+<div class="viewer" id="viewer3"></div>
+<div class="reset" id="resetview3">Reset View</div>
+<div class="screenshot" id="screenshotview3">Screenshot</div>
+
+<hr>
+
+<div class="viewer" id="viewer4"></div>
+<div class="reset" id="resetview4">Reset View</div>
+<div class="screenshot" id="screenshotview4">Screenshot</div>
+
+
+
+<section>
+  <div class="sectionHeading">References</div>
+  <p><a href="https://www.newworldencyclopedia.org/entry/Impossible_cube">https://www.newworldencyclopedia.org/entry/Impossible_cube</a></p>
+  <p><a href="https://www.newworldencyclopedia.org/entry/Necker_cube">https://www.newworldencyclopedia.org/entry/Necker_cube</a></p>
+  <p><a href="https://www.toptal.com/designers/ui/gestalt-principles-of-design">https://www.toptal.com/designers/ui/gestalt-principles-of-design</a></p>
+  <p><a href="https://en.wikipedia.org/wiki/Impossible_cube">https://en.wikipedia.org/wiki/Impossible_cube</a></p>
+
+</section>
+
+</body>
+
+
+</html>
