@@ -3,9 +3,7 @@ title: "Noise Fighter Android App"
 excerpt: "Automatic volume control app"
 category:
   - Mobile App Development
-  - Android Studio
   - Graphic Design
-  - Inkscape
 layout: single
 classes: wide
 header:
@@ -56,6 +54,8 @@ There are 5 parameters for the user to change.
 
 I started this app as a tool for just me to use, but decided it would be good to also publish it on the Google Play Store and see if I could implement microtransactions using the Google Play Billing Library. I published it as a free app with one in app purchase to upgrade it to the full version. The free version limits the maximum volume setting to 66%, while the full version enables full volume control and gives access to different colors/themes.
 
+### Update: Nov. 21 2023
+I updated the app to work for newer versions of Android, and and also removed the full version upgrade in app purchase (the base/free version is now the full version).
 
 ## Screenshots:
 {% include gallery %}
