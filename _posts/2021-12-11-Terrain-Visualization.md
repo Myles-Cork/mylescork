@@ -2,7 +2,6 @@
 title: "Terrain Visualization"
 excerpt: "Terrain visualizer written in C with OpenGL and SDL 2"
 category:
-- OpenGL
 - Computer Graphics
 - 3D Animation
 layout: single

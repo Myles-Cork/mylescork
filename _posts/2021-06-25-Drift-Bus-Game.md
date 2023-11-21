@@ -3,15 +3,11 @@ title: "Drift Bus Game"
 excerpt: "Mobile game for IOS and Android"
 category:
   - Mobile App Development
-  - Unity
+  - Computer Graphics
   - 3D Animation
   - Video Production
   - Graphic Design
   - Music Production
-  - Blender
-  - DaVinci Resolve
-  - Krita
-  - Inkscape
 layout: single
 classes: wide
 header:

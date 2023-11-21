@@ -2,8 +2,6 @@
 title: "Hackital Github Design"
 excerpt: "Design for a competition at a hackathon"
 category:
-  - Graphic Design
-  - Digital Painting
   - Painting
 layout: single
 classes: wide

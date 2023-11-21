@@ -2,7 +2,6 @@
 title: "Auckland Domain Wintergardens Painting"
 excerpt: "Plein air painting"
 category:
-  - Digital Painting
   - Painting
 layout: single
 classes: wide

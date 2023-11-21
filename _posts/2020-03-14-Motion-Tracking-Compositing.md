@@ -4,8 +4,6 @@ excerpt: "Solving a camera's motion for use with 3D software."
 category:
   - 3D Animation
   - Video Production
-  - Blender
-  - Adobe Premiere
 layout: single
 classes: wide
 header:

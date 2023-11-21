@@ -2,7 +2,6 @@
 title: "Cloud GLSL Shader"
 excerpt: "Procedural cloud texture using 3D noise"
 category:
-  - OpenGL
   - Computer Graphics
   - 3D Animation
 layout: single

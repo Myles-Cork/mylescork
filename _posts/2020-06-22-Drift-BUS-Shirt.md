@@ -3,8 +3,6 @@ title: "Drift BUS Shirt Design"
 excerpt: "3D model assisted vector graphic design"
 category:
   - Graphic Design
-  - Blender
-  - Adobe Illustrator
 layout: single
 classes: wide
 header:

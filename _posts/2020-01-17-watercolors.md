@@ -2,7 +2,7 @@
 title: "Watercolors"
 excerpt: "Collection of watercolors"
 category:
-  - Watercolor
+  - Painting
 layout: single
 classes: wide
 header:

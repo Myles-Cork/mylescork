@@ -2,11 +2,8 @@
 title: "Imogene and Engineer Pass Video"
 excerpt: "Cinematic video of the San Juan Mountains"
 category:
-  - Drones
   - Video Production
   - Music Production
-  - DaVinci Resolve
-  - GarageBand
 layout: single
 classes: wide
 header:

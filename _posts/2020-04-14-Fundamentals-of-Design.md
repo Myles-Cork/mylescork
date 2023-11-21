@@ -3,11 +3,6 @@ title: "Fundamentals of Design"
 excerpt: "Designs and animations for a class"
 category:
   - Graphic Design
-  - 2D Animation
-  - Adobe Illustrator
-  - Adobe InDesign
-  - Adobe Photoshop
-  - Collage
 layout: single
 classes: wide
 header:

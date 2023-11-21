@@ -4,8 +4,6 @@ excerpt: "Computer animation of a bus composited with real video"
 category:
   - 3D Animation
   - Video Production
-  - Blender
-  - Adobe Premiere
 layout: single
 classes: wide
 header:

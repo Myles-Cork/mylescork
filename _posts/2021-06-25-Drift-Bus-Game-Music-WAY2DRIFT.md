@@ -3,13 +3,8 @@ title: "WAY2DRIFT - Drift Bus OST"
 excerpt: "Original soundtrack and visualizer video"
 category:
   - Music Production
-  - 3D Animation
   - Video Production
-  - Graphic Design
-  - GarageBand
-  - Blender
-  - DaVinci Resolve
-  - Inkscape
+  - 3D Animation
 layout: single
 classes: wide
 header:

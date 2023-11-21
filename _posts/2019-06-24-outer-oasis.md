@@ -3,7 +3,6 @@ title: "Outer Oasis"
 excerpt: "Poster design"
 category:
   - Graphic Design
-  - Adobe Illustrator
 layout: single
 classes: wide
 header:

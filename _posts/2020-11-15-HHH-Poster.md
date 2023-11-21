@@ -3,9 +3,6 @@ title: "\"The Haunting of Hill House\" Poster"
 excerpt: "Poster and Spotify Cover design made with a combination of 2D illustration and 3D rendering"
 category:
   - Graphic Design
-  - Adobe Photoshop
-  - Blender
-  - Theater
 layout: single
 classes: wide
 header:

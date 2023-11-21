@@ -3,7 +3,6 @@ title: "Impossible Objects Website"
 excerpt: "Website for viewing 3D models of impossible objects"
 category:
   - Web Development
-  - Three.js
   - Computer Graphics
 layout: single
 classes: wide
@@ -14,7 +13,7 @@ header:
 [Link to site](/_pages/impossibleobjects)
 
 <figure class="align-center">
-	<a href="/assets/images/atls5630/impossibleobjectshome.JPG"><img src="/assets/images/atls5630/impossibleobjectshome.JPG"></a>
+	<a href="/_pages/impossibleobjects"><img src="/assets/images/atls5630/impossibleobjectshome.JPG"></a>
   <figcaption></figcaption>
 </figure>
 

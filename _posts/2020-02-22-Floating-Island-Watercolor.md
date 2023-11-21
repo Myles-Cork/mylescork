@@ -2,7 +2,7 @@
 title: "Floating Island Watercolor"
 excerpt: "Watercolor over inked drawing"
 category:
-  - Watercolor
+  - Painting
 layout: single
 classes: wide
 header:

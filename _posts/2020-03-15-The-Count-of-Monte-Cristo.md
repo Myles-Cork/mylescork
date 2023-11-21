@@ -2,9 +2,7 @@
 title: "\"The Count of Monte Cristo\""
 excerpt: "A Wandering Minds production I directed"
 category:
-  - Theater
   - Graphic Design
-  - Adobe Illustrator
 layout: single
 classes: wide
 header:

@@ -2,11 +2,9 @@
 title: "Spray Paint Simulator"
 excerpt: "Spray painting simulation set in an alleyway"
 category:
-  - OpenGL
   - Computer Graphics
   - 3D Animation
-  - Blender
-  - Photoshop
+  - Graphic Design
 layout: single
 classes: wide
 header:

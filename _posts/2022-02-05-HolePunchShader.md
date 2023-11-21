@@ -2,7 +2,6 @@
 title: "Hole Punch GLSL Shader"
 excerpt: "Hole punch/rain ripple procedural texture"
 category:
-  - OpenGL
   - Computer Graphics
   - 3D Animation
 layout: single

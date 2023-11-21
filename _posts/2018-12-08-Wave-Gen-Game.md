@@ -3,10 +3,7 @@ title: "Wave Gen Game"
 excerpt: "Android app for a class"
 category:
   - Mobile App Development
-  - Android Studio
   - Graphic Design
-  - Adobe Illustrator
-  - Adobe Photoshop
 layout: single
 classes: wide
 header:

@@ -2,7 +2,6 @@
 title: "Micro Quadcopter 1"
 excerpt: "A 2s 2.5inch micro quadcopter"
 category:
-  - Drones
   - Electronics
 layout: single
 classes: wide

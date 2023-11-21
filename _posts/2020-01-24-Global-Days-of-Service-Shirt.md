@@ -3,7 +3,6 @@ title: "BU Global Days of Service 2020 T-shirt Design"
 excerpt: "T-shirt contest design"
 category:
   - Graphic Design
-  - Adobe Illustrator
 layout: single
 classes: wide
 header:

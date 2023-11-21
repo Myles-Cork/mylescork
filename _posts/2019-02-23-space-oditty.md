@@ -2,7 +2,6 @@
 title: "\"Space Oddity\" paintings"
 excerpt: "Collection of digital paintings"
 category:
-  - Digital Painting
   - Painting
 layout: single
 classes: wide

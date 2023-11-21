@@ -2,7 +2,6 @@
 title: "OpenGL Projects Fall 2021"
 excerpt: "Projects for a computer graphics class"
 category:
-  - OpenGL
   - Computer Graphics
   - 3D Animation
 layout: single

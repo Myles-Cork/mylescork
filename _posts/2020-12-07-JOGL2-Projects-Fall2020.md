@@ -2,8 +2,6 @@
 title: "JOGL2 Projects Fall 2020"
 excerpt: "Projects for a computer graphics class"
 category:
-  - JOGL2
-  - OpenGL
   - Computer Graphics
   - 3D Animation
 layout: single

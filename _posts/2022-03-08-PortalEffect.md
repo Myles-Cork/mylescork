@@ -2,7 +2,6 @@
 title: "Portal Particle Effect"
 excerpt: "Experiments with point and sprite particles"
 category:
-  - OpenGL
   - Computer Graphics
   - 3D Animation
 layout: single

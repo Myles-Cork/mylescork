@@ -3,9 +3,6 @@ title: "\"Character Fest\" Poster"
 excerpt: "Poster designs"
 category:
   - Graphic Design
-  - Adobe Photoshop
-  - Adobe Illustrator
-  - Theater
 layout: single
 classes: wide
 header:
