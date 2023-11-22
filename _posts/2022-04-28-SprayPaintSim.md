@@ -5,6 +5,7 @@ category:
   - Computer Graphics
   - 3D Animation
   - Graphic Design
+  - Computer Science
 layout: single
 classes: wide
 header:

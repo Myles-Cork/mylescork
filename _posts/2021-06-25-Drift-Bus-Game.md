@@ -8,6 +8,7 @@ category:
   - Video Production
   - Graphic Design
   - Music Production
+  - Computer Science
 layout: single
 classes: wide
 header:

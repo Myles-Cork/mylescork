@@ -4,6 +4,7 @@ excerpt: "Procedural cloud texture using 3D noise"
 category:
   - Computer Graphics
   - 3D Animation
+  - Computer Science
 layout: single
 classes: wide
 header:

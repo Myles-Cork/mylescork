@@ -4,6 +4,7 @@ excerpt: "Android app for a class"
 category:
   - Mobile App Development
   - Graphic Design
+  - Computer Science
 layout: single
 classes: wide
 header:

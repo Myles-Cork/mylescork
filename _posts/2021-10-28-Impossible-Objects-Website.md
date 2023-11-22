@@ -4,6 +4,7 @@ excerpt: "Website for viewing 3D models of impossible objects"
 category:
   - Web Development
   - Computer Graphics
+  - Computer Science
 layout: single
 classes: wide
 header:

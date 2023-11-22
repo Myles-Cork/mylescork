@@ -4,6 +4,7 @@ excerpt: "Automatic volume control app"
 category:
   - Mobile App Development
   - Graphic Design
+  - Computer Science
 layout: single
 classes: wide
 header:

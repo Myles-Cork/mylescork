@@ -4,6 +4,7 @@ excerpt: "Hole punch/rain ripple procedural texture"
 category:
   - Computer Graphics
   - 3D Animation
+  - Computer Science
 layout: single
 classes: wide
 header:

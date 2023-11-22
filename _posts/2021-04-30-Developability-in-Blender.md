@@ -3,6 +3,7 @@ title: "Developability of Meshes in Blender"
 excerpt: "Python scripts for analyzing and optimizing meshes in Blender"
 category:
   - Computer Graphics
+  - Computer Science
 layout: single
 classes: wide
 header:

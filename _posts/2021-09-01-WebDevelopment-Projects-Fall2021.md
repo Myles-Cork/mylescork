@@ -3,6 +3,7 @@ title: "Web Development Projects Fall 2021"
 excerpt: "Projects for a class"
 category:
   - Web Development
+  - Computer Science
 layout: single
 classes: wide
 header:

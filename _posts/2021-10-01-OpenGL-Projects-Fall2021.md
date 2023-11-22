@@ -4,6 +4,7 @@ excerpt: "Projects for a computer graphics class"
 category:
   - Computer Graphics
   - 3D Animation
+  - Computer Science
 layout: single
 classes: wide
 header:
