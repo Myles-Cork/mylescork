@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+	<head>
+		<meta charset="utf-8">
+		<title>Splash</title>
+		<style>
+			body { margin: 0; width: inherit; height: inherit;}
+		</style>
+		<script type="importmap">
+			{
+				"imports": {
+					"three":"https://threejs.org/build/three.module.js",
+					"three/addons/":"https://threejs.org/examples/jsm/"
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<script defer type="module" src="splash_simulation.js"></script>
+
+		<div class="viewer" id="viewer"></div>
+	</body>
+</html>
