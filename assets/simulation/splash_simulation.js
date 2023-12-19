@@ -28,6 +28,8 @@ const ORBIT_CONTROLS = false;
 // Enable shadows
 const SHADOWS = true;
 
+const PREBAKE_STEPS = 100;
+
 const BACKGROUND_COLOR = new THREE.Color(0x262626);
 const BACKGROUND_OPACITY = 0.0;
 const GRID_COLOR = new THREE.Color(0x417b6d);
@@ -61,11 +63,11 @@ viewer.style.overflow = "hidden";
 
 // Get mouse position
 let mouseX = 0, mouseY = 0;
-let windowHalfX = window.innerWidth / 2;
-let windowHalfY = window.innerHeight / 2;
+let windowHalfX = viewer.offsetWidth / 2;
+let windowHalfY = viewer.offsetHeight / 2;
 function onPointerMove( event ) {
     if ( event.isPrimary === false ) return;
-    mouseX = (event.clientX - windowHalfX) * (windowHalfX/windowHalfY);
+    mouseX = (event.clientX - windowHalfX) //* (windowHalfX/windowHalfY);
     mouseY = (event.clientY - windowHalfY);
 }
 viewer.addEventListener( "pointermove", onPointerMove );
@@ -84,13 +86,13 @@ viewer.appendChild(canvas);
 const scene = new THREE.Scene()
 
 // Camera
-let camWidth = 20;
-let camHeight = 20;
+let camWidth = 10;
+let camHeight = 10;
 let aspect = viewer.offsetWidth/viewer.offsetHeight;
 let camera;
 if(PERSPECTIVE){
     camera = new THREE.PerspectiveCamera(
-        Math.sqrt(Math.pow(camWidth,2) + Math.pow(camHeight,2)), 
+        Math.sqrt(Math.pow(camWidth,2) + Math.pow(camHeight,2)),
         aspect, 
         1, 
         1000
@@ -103,19 +105,20 @@ else{
         camHeight / 2, // top
         camHeight / -2, // bottom
         -100, // near
-        100 // far
+        200 // far
     );
 }
 
 camera.layers.enable( BLOOM_SCENE );
 camera.layers.enable( BLOOM_HIDDEN );
 
+let controls;
 if(ORBIT_CONTROLS){
-    const controls = new OrbitControls(camera, renderer.domElement)
+    controls = new OrbitControls(camera, renderer.domElement);
 }
 else{
     camera.position.set(-10.0,-40.0,7.5);
-    camera.lookAt(0.0,0.0,0.0);
+    camera.lookAt(-5.0,5.0,0.0);
     camera.rotation.set(camera.rotation.x,camera.rotation.y,Math.atan(1.0/aspect));
 }
 
@@ -124,14 +127,14 @@ let camera_pos_shift_goal = new THREE.Vector3(0.0,0.0,0.0);
 
 // Orient the camera based on mouse position
 function updateCamera(){
-    camera_pos_shift_goal.x = (-mouseY/windowHalfY-mouseX/windowHalfX) * 8.0;
-    camera_pos_shift_goal.y = ( mouseY/windowHalfY+mouseX/windowHalfX) * 8.0;
-    camera_pos_shift_goal.z = ( mouseY/windowHalfY-mouseX/windowHalfX) * 8.0;
+    camera_pos_shift_goal.x = (-mouseY/windowHalfY-mouseX/windowHalfX)/2.0;
+    camera_pos_shift_goal.y = ( mouseY/windowHalfY+mouseX/windowHalfX)/2.0;
+    camera_pos_shift_goal.z = ( mouseY/windowHalfY-mouseX/windowHalfX)/2.0;
 
     camera_pos_shift.add(new THREE.Vector3().copy(camera_pos_shift_goal).sub(camera_pos_shift).divideScalar(10.0));
 
-    camera.position.set(-10.0+camera_pos_shift.x,-40.0+camera_pos_shift.y,7.5+camera_pos_shift.z);
-    camera.lookAt(0.0,0.0,0.0);
+    camera.position.set(-20.0+(camera_pos_shift.x+1)*15,-60.0+(camera_pos_shift.y+1.0)*20.0,3.0+5.0*(Math.pow(2,5.0*camera_pos_shift.z)-1.0));
+    camera.lookAt((-3.0+camera_pos_shift.x+camera_pos_shift.y)*(1.0-camera_pos_shift.z),(4.0-2.0*(camera_pos_shift.y))*(1.0-camera_pos_shift.z),0.0);
     camera.rotation.set(camera.rotation.x,camera.rotation.y,Math.atan(1.0/aspect));
 }
 
@@ -139,7 +142,7 @@ function updateCamera(){
 // Set up render passes
 const renderScene = new RenderPass( scene, camera );
 
-const bloomPass = new UnrealBloomPass( new THREE.Vector2( window.innerWidth, window.innerHeight ), 1.5, 0.4, 0.85 );
+const bloomPass = new UnrealBloomPass( new THREE.Vector2( viewer.offsetWidth, viewer.offsetHeight ), 1.5, 0.4, 0.85 );
 bloomPass.threshold = params.threshold;
 bloomPass.strength = params.strength;
 bloomPass.radius = params.radius;
@@ -239,8 +242,8 @@ window.addEventListener("resize", function(event){
     resizeRenderer();
     camera.updateProjectionMatrix();
 
-	windowHalfX = window.innerWidth / 2;
-	windowHalfY = window.innerHeight / 2;
+	windowHalfX = viewer.offsetWidth / 2;
+	windowHalfY = viewer.offsetHeight / 2;
 });
 
 scene.traverse( disposeMaterial );
@@ -318,7 +321,7 @@ scene.add(grid);
 
 
 // Prebake the simulation
-for(let i = 0; i < 100; i ++){
+for(let i = 0; i < PREBAKE_STEPS; i ++){
     masses_array.forEach(mass => {
         mass.calc_velocity(masses_array);
     });
@@ -341,6 +344,8 @@ function animate() {
 
     if(!ORBIT_CONTROLS){
         updateCamera();
+    }else{
+        controls.update();
     }
 
     // Update Simulation
