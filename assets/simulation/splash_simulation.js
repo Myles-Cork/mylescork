@@ -115,6 +115,8 @@ camera.layers.enable( BLOOM_HIDDEN );
 let controls;
 if(ORBIT_CONTROLS){
     controls = new OrbitControls(camera, renderer.domElement);
+    camera.position.set( 0.0, 0.0, 100.0 );
+    controls.update();
 }
 else{
     camera.position.set(-10.0,-40.0,7.5);
