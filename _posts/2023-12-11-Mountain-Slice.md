@@ -2,7 +2,8 @@
 title: "Mountain Slice"
 excerpt: "Animation made with Houdini"
 category:
-  - 
+  - Computer Graphics
+  - 3D Animation
 layout: single
 classes: wide
 header:
