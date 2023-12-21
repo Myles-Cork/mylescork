@@ -1,5 +1,5 @@
 // Myles Cork
-// Class for simulating spherical masses with gravity and collisions in 2D using a Euler step method.
+// Class for simulating spherical masses with gravity and collisions in 3D using a Euler step method.
 
 import * as THREE from "https://threejs.org/build/three.module.js";
 
@@ -10,12 +10,12 @@ const gravity_eq_shift = 6.0;
 const repulsion_power = 50.0;
 const rt_gravity_eq_shift = Math.pow(gravity_eq_shift,2.0/repulsion_power);
 // Increase the repulsion force of static masses (to prevent non-static masses from sticking to them)
-const static_repulsion_multiplier = 6.0;
+const static_repulsion_multiplier = 4.0;
 
-export class Mass {
+export class Mass3D {
     mass; // Mass quantity of this mass
     radius; // Radius of this mass
-    position; // Position of this mass in 2D
+    position; // Position of this mass in 3D
     prev_velocity; // Velocity of this mass at the end of the previous step
     velocity; // Velocity of this mass
     static_mass; // True this mass is stationary
@@ -27,7 +27,7 @@ export class Mass {
         this.position = position;
         this.prev_velocity = initial_velocity;
         if(static_mass){
-            this.velocity = new THREE.Vector2();
+            this.velocity = new THREE.Vector3();
         }else{
             this.velocity = initial_velocity;
         }
@@ -36,6 +36,7 @@ export class Mass {
         this.obj = new THREE.Mesh(geometry, material);
         this.obj.position.x = this.position.x;
         this.obj.position.y = this.position.y;
+        this.obj.position.z = this.position.z;
     }
 
     // Calculate the velocity based on gravitational forces and wall
@@ -44,20 +45,20 @@ export class Mass {
             return
         }
 
-        let force_total = new THREE.Vector2();
+        let force_total = new THREE.Vector3();
 
         // "Wall" force that pulls objects back towards the center based on the wall_dist
         let wall_dist = 20.0;
         let centerdist = this.position.length();
         if(centerdist > wall_dist){
-            force_total.add(new THREE.Vector2().copy(this.position).normalize().multiplyScalar(-0.0001 * this.mass * Math.pow(centerdist-wall_dist, 2.0)));
+            force_total.add(new THREE.Vector3().copy(this.position).normalize().multiplyScalar(-0.0001 * this.mass * Math.pow(centerdist-wall_dist, 2.0)));
         }
 
         masses.forEach(other => {
             let distance = this.position.distanceTo(other.position);
             if(distance != 0){
                 let force_magnitude = 0.00001 * this.mass * other.mass / (Math.pow(Math.max(distance-(this.radius+other.radius)+gravity_eq_shift,gravity_eq_shift), 2.0));
-                let force_vector = new THREE.Vector2();
+                let force_vector = new THREE.Vector3();
                 
                 force_vector.subVectors(other.position, this.position);
                 force_vector.setLength(force_magnitude);
@@ -74,11 +75,11 @@ export class Mass {
         if(this.static_mass){
             return;
         }
-        let normal = new THREE.Vector2();
-        let force_total = new THREE.Vector2();
-        let relative_velocity = new THREE.Vector2();
-        let normal_vel_1 = new THREE.Vector2();
-        let normal_vel_2 = new THREE.Vector2();
+        let normal = new THREE.Vector3();
+        let force_total = new THREE.Vector3();
+        let relative_velocity = new THREE.Vector3();
+        let normal_vel_1 = new THREE.Vector3();
+        let normal_vel_2 = new THREE.Vector3();
         masses.forEach(other => {
             let distance = this.position.distanceTo(other.position);
             if(distance != 0.0 && distance <= this.radius + other.radius){
@@ -100,7 +101,7 @@ export class Mass {
                 this.velocity.sub(normal_vel_1);
 
                 // Additional repulsion force for when masses are intersecting to prevent them from collapsing on one another
-                let force_vector = new THREE.Vector2();
+                let force_vector = new THREE.Vector3();
                 let force_magnitude = -(0.00001 * this.mass * other.mass / (Math.pow(Math.max(distance-(this.radius+other.radius)+rt_gravity_eq_shift,rt_gravity_eq_shift-0.1*rt_gravity_eq_shift*(this.radius+other.radius)), repulsion_power)));
 
                 if(other.static_mass){
@@ -122,6 +123,7 @@ export class Mass {
         this.position.add(this.velocity.clampLength(0.0,speed_limit)); // limit velocity
         this.obj.position.x = this.position.x;
         this.obj.position.y = this.position.y;
+        this.obj.position.z = this.position.z;
         this.prev_velocity.clone(this.velocity);
     }
 }
