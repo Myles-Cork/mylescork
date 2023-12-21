@@ -104,10 +104,13 @@ export class Mass3D {
                 let force_vector = new THREE.Vector3();
                 let force_magnitude = -(0.00001 * this.mass * other.mass / (Math.pow(Math.max(distance-(this.radius+other.radius)+rt_gravity_eq_shift,rt_gravity_eq_shift-0.1*rt_gravity_eq_shift*(this.radius+other.radius)), repulsion_power)));
 
+                force_vector.subVectors(other.position, this.position);
                 if(other.static_mass){
                     force_magnitude = static_repulsion_multiplier*force_magnitude;
+                    // Add vector perpendicular to normal (in xy) to add counter clockwise rotation
+                    force_vector.add(new THREE.Vector3(-force_vector.y, force_vector.x, force_vector.z));
                 }
-                force_vector.subVectors(other.position, this.position);
+
                 force_vector.setLength(force_magnitude);
                 force_total.add(force_vector);
             }
