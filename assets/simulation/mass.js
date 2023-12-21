@@ -6,11 +6,11 @@ import * as THREE from "https://threejs.org/build/three.module.js";
 // Mass speed limit
 const speed_limit = 0.15;
 // Constants for repulsion calculation
-const gravity_eq_shift = 6.0;
-const repulsion_power = 50.0;
+const gravity_eq_shift = 6.5;
+const repulsion_power = 60.0;
 const rt_gravity_eq_shift = Math.pow(gravity_eq_shift,2.0/repulsion_power);
 // Increase the repulsion force of static masses (to prevent non-static masses from sticking to them)
-const static_repulsion_multiplier = 6.0;
+const static_repulsion_multiplier = 4.0;
 
 export class Mass {
     mass; // Mass quantity of this mass
@@ -103,10 +103,13 @@ export class Mass {
                 let force_vector = new THREE.Vector2();
                 let force_magnitude = -(0.00001 * this.mass * other.mass / (Math.pow(Math.max(distance-(this.radius+other.radius)+rt_gravity_eq_shift,rt_gravity_eq_shift-0.1*rt_gravity_eq_shift*(this.radius+other.radius)), repulsion_power)));
 
+                force_vector.subVectors(other.position, this.position);
                 if(other.static_mass){
                     force_magnitude = static_repulsion_multiplier*force_magnitude;
+                    // Add vector perpendicular to normal to add counter clockwise rotation
+                    force_vector.add(new THREE.Vector2(-force_vector.y, force_vector.x));
                 }
-                force_vector.subVectors(other.position, this.position);
+                
                 force_vector.setLength(force_magnitude);
                 force_total.add(force_vector);
             }
