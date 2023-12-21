@@ -87,7 +87,7 @@ In addition to experimenting with the repulsion equation, I also added additiona
 - Collisions are not perfectly elastic.
 
 #### Possible Improvements
-Besides some optimizations such as remove duplicate calculations (e.g. only calculating particle pair distances once each step and storing them in an array for lookup), the physics could benefit from using Verlet integration, or an optimized Event Driven approach instead of a time-driven simulation method.
+Besides optimizations such as remove duplicate calculations (e.g. only calculating particle pair distances once each step and storing them in an array for lookup), the physics could benefit from using Verlet integration, or an optimized Event Driven approach instead of a time-driven simulation method.
 
 ## 3D Simulation
 The 2D simulation can be modified to work in three dimensions:
