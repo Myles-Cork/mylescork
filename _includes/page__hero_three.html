@@ -1,5 +1,5 @@
 {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
-<div class="page__hero--overlay" style="display: flex; align-items: center; flex-grow: 1; padding: 0; margin: 0;">
+<div class="page__hero--overlay" style="display: flex; align-items: center; flex-grow: 1; padding: 0; margin: 0; overflow: hidden;">
   <div class="wrapper" style="pointer-events: none;">
     <object data="{{ page.header.three }}" style="pointer-events: all; position: absolute; top: 0; left: 0; z-index: -100; height: 100%; width: 100%;"></object>
   
